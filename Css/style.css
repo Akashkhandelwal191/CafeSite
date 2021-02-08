@@ -37,6 +37,8 @@ nav{
     width:100%;
     background: #006266;
     /* opacity: 0.9; */
+    position: fixed;
+    z-index: 1;
 }
 .logo{
     
@@ -83,6 +85,18 @@ nav #icon{
     margin-right: 40px;
     cursor: pointer;
     display: none;
+}
+
+#backtotop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    color:red;
+    z-index: 9;
+    background-color: #fff;
 }
 
 @media (max-width:1048px){
